@@ -28,3 +28,36 @@
 }
 
 /* Top-Header-Section-End */
+
+/* Main-header-Section-Start */
+.mh-section {
+    padding: 20px 0px;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-header .logo{
+    width: 30%;
+}
+.main-header .logo img{
+    width: 60%;
+}
+.main-header .manu{
+    width: 70%;
+}
+.main-header .manu ul{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+.main-header .manu ul li{
+    margin-left: 35px;
+}
+.main-header .manu ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000000;
+}
+/* Main-header-Section-End */
